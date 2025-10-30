@@ -8,6 +8,7 @@
   background-image: var(--cover-image);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 @media (width >= 768px) {
