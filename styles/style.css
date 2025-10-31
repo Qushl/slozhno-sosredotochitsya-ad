@@ -69,7 +69,7 @@
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
-  min-height: 100vh;
+  min-height: 97vh;
 }
 
 .decorative-rec-icon {
@@ -364,7 +364,7 @@
 .footer {
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  min-height: 97vh;
 }
 
 .footer__text {
