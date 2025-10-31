@@ -94,21 +94,8 @@
 
 .decorated-zone {
   position: relative;
-  min-block-size: 97vh;
-}
-
-@media (min-width: 768px) {
-
-  .decorated-zone {
-    min-block-size: 96vh;
-  }
-}
-
-@media (min-width: 1024px) {
-
-  .decorated-zone {
-    min-block-size: 94vh;
-  }
+  min-block-size: 100vh;
+  min-inline-size: 100%;
 }
 
 /*обводка краев*/
