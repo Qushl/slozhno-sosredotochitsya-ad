@@ -185,7 +185,6 @@
 
 .header__heading {
   align-self: self-start;
-  margin: 65px 0 0 10px;
   color: var(--accent-heading-clr);
   font-weight: 700;
   font-size: var(--accent-heading-fs-mobile);
@@ -224,7 +223,7 @@
 
 /* WHY SECTION */
 .why {
-  margin: 40px 0 0;
+  margin: 60px 0 0;
 }
 
 @media (min-width: 768px) {
