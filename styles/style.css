@@ -7,13 +7,12 @@
   font-size: 18px;
   background-image: var(--cover-image);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 @media (min-width: 768px) {
-
   .page {
     padding: 20px;
   }
@@ -27,7 +26,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .accented-shadow-text {
     font-size: var(--accent-heading-fs-desktop);
   }
@@ -61,8 +59,12 @@
 }
 
 .paragraph-text {
-  margin: 10px 0 20px;
+  margin: 10px 0 0;
   line-height: 130%;
+}
+
+.paragraph-text:last-of-type {
+  margin-bottom: 20px;
 }
 
 /* header */
@@ -70,6 +72,7 @@
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
+  min-height: 100vh;
 }
 
 .decorative-rec-icon {
@@ -77,7 +80,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 2px 10px 0 0;
+  margin: 10px 10px 0 0;
   color: var(--rec-decoration-clr);
   inset-inline-end: 0;
   inset-block-start: 0;
@@ -95,21 +98,6 @@
 
 .decorated-zone {
   position: relative;
-  min-block-size: 97vh;
-}
-
-@media (min-width: 768px) {
-
-  .decorated-zone {
-    min-block-size: 96vh;
-  }
-}
-
-@media (min-width: 1024px) {
-
-  .decorated-zone {
-    min-block-size: 94.7vh;
-  }
 }
 
 .decorated-zone::before {
@@ -145,14 +133,12 @@
 }
 
 @media (min-width: 768px) {
-
   .header__theme-menu {
     margin: 10px 0 0;
   }
 }
 
 @media (min-width: 1024px) {
-
   .header__theme-menu {
     justify-self: center;
     align-self: self-start;
@@ -196,90 +182,82 @@
 
 .header__heading {
   align-self: self-start;
-  margin: 15px 0 0;
+  margin: 55px 0 0 10px;
   text-shadow: 4px 4px 0 var(--accent-clr);
 }
 
 @media (min-width: 768px) {
-
   .header__heading {
-    margin: 20px 0 0 -20px;
+    margin: 15px 0 0 -20px;
   }
 }
 
 @media (min-width: 1024px) {
-
   .header__heading {
-    margin: 45px 0 0 -20px;
+    margin: 30px 0 0 -20px;
   }
 }
 
 .header__text {
   justify-self: end;
-  margin: 0;
-  padding-right: 50px;
-  max-inline-size: 364px;
+  margin: 0 10px 0 0;
+  padding-right: 0;
+  max-inline-size: 355px;
 }
 
 @media (min-width: 768px) {
-
   .header__text {
     margin: 0;
+    max-inline-size: 364px;
   }
 }
 
 @media (min-width: 1024px) {
-
   .header__text {
-    margin: 0;
-    padding: 0;
-    max-inline-size: 491px;
+    margin: 0 20px 0 0;
+    max-inline-size: 465px;
   }
 }
 
 /*why*/
 .why {
-  margin: 49px 0 0;
+  margin: 40px 0 0;
 }
 
 @media (min-width: 768px) {
-
   .why {
     display: grid;
-    grid-template-columns: 236px 1fr;
+    grid-template-columns: 230px 1fr;
     column-gap: var(--gap);
-    margin: 81px 0 0;
+    margin: 80px 0 0;
   }
 }
 
 @media (min-width: 1024px) {
-
   .why {
-    grid-template-columns: 314px 1fr;
+    grid-template-columns: 315px 1fr;
+    margin: 60px 0 0;
   }
 }
 
 /*what*/
-
 .what {
   margin: 50px 0 0;
 }
 
 @media (min-width: 768px) {
-
   .what {
-    margin: 60px 0 0;
+    margin: 80px 0 0;
   }
 
   .what__heading {
-    max-inline-size: 236px;
+    max-inline-size: 230px;
   }
 }
 
 @media (min-width: 1024px) {
-
   .what__heading {
-    max-inline-size: 314px;
+    max-inline-size: 315px;
   }
 
   .what__list {
@@ -290,13 +268,11 @@
 }
 
 /*how*/ 
-
 .how {
   margin: 50px 0 0;
 }
 
 @media (min-width: 768px) {
-
   .how {
     display: grid;
     grid-template-columns: 236px 1fr;
@@ -306,10 +282,9 @@
 }
 
 @media (min-width: 1024px) {
-
   .how {
     grid-template-columns: 314px 1fr;
-    margin: 60px 0 0;
+    margin: 80px 0 0;
   }
 }
 
@@ -322,9 +297,8 @@
 }
 
 /*gallery*/
-
 .gallery {
-  margin: 50px 0 47px;
+  margin: 50px 0 0;
 }
 
 .gallery__heading {
@@ -343,9 +317,8 @@
 }
 
 @media (min-width: 768px) {
-
   .gallery {
-    margin: 60px 0 74px;
+    margin: 80px 0 60px;
   }
 
   .gallery__list {
@@ -354,7 +327,7 @@
     grid-template-rows: repeat(3, fit-content);
     row-gap: 16px;
     column-gap: var(--gap);
-    margin: 19px 0 0;
+    margin: 20px 0 0;
   }
 
   .gallery__list-item:nth-child(1) {
@@ -382,10 +355,20 @@
   }
 }
 
-/*footer*/
+@media (min-width: 1024px) {
+  .gallery {
+    margin: 80px 0 60px;
+  }
 
+  .gallery__list {
+    margin: 20px 0 0;
+  }
+}
+
+/*footer*/
 .footer {
   display: grid;
+  min-height: 100vh;
 }
 
 .footer__text {
