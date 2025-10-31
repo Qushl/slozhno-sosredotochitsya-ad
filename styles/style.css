@@ -1,3 +1,10 @@
+body {
+  min-inline-size: 375px;
+  max-inline-size: 1440px;
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   margin: 0 auto;
   padding: 10px;
@@ -68,7 +75,7 @@
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 .decorative-rec-icon {
@@ -221,7 +228,7 @@
 
 /* WHY SECTION */
 .why {
-  margin: 40px 0 0;
+  margin: 30px 0 0;
 }
 
 @media (min-width: 768px) {
@@ -247,7 +254,7 @@
 
 @media (min-width: 768px) {
   .what {
-    margin: 80px 0 0;
+    margin: 60px 0 0;
   }
 
   .what__heading {
@@ -367,7 +374,6 @@
   display: grid;
   place-items: center;
   min-height: 100vh;
-  min-height: 97vh;
 }
 
 .footer__text {
