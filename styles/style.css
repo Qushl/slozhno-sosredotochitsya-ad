@@ -9,7 +9,6 @@
   background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh;
 }
 
 @media (min-width: 768px) {
@@ -69,7 +68,7 @@
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
-  min-height: 97vh;
+  min-height: 100vh;
 }
 
 .decorative-rec-icon {
@@ -368,7 +367,7 @@
 .footer {
   display: grid;
   place-items: center;
-  min-height: 97vh;
+  min-height: 100vh;
 }
 
 .footer__text {
