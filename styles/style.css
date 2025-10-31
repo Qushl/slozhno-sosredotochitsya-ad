@@ -68,8 +68,7 @@
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
-  min-height: 100vh;
-  min-height: 97vh;
+  min-height: 100vh; 
 }
 
 .decorative-rec-icon {
@@ -161,7 +160,6 @@
   font-size: 18px;
   text-transform: lowercase;
   background-color: transparent;
-  transition: outline 0.2s;
   cursor: pointer;
 }
 
@@ -223,7 +221,7 @@
 
 /* WHY SECTION */
 .why {
-  margin: 50px 0 0;
+  margin: 40px 0 0;
 }
 
 @media (min-width: 768px) {
@@ -231,14 +229,14 @@
     display: grid;
     grid-template-columns: 236px 1fr;
     column-gap: var(--gap);
-    margin: 50px 0 0;
+    margin: 40px 0 0;
   }
 }
 
 @media (min-width: 1024px) {
   .why {
     grid-template-columns: 315px 1fr;
-    margin: 60px 0 0;
+    margin: 40px 0 0;
   }
 }
 
