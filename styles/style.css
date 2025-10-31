@@ -7,6 +7,7 @@
   font-size: 18px;
   background-image: var(--cover-image);
   background-repeat: no-repeat;
+  background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
 }
