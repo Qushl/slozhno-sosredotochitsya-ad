@@ -303,7 +303,7 @@
 
 /* GALLERY */
 .gallery {
-  margin: 50px 0 60px;
+  margin: 40px 0 60px;
 }
 
 .gallery__heading {
@@ -325,14 +325,14 @@
 
 @media (min-width: 768px) {
   .gallery {
-    margin: 60px 0 60px;
+    margin: 55px 0 60px;
   }
 
   .gallery__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 20px;
+    gap: 15px;
     margin: 20px 0 0;
   }
 
