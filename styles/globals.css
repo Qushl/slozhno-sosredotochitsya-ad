@@ -8,11 +8,11 @@
 }
 
 body {
-  margin: 0 !important;
-  padding: 0 !important;
   min-inline-size: 375px;
   max-inline-size: 1440px;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
