@@ -1,6 +1,6 @@
 .page {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   color: var(--text-clr);
   font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
