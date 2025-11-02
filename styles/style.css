@@ -1,6 +1,6 @@
 .page {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   color: var(--text-clr);
   font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
@@ -17,7 +17,6 @@
   }
 }
 
-/* ТИПОГРАФИЯ */
 .accented-shadow-text {
   color: var(--accent-heading-clr);
   font-weight: 700;
@@ -156,7 +155,6 @@
   padding: 2px 13px;
   outline: 1px solid transparent;
   color: var(--menu-clr);
-  font-family: inherit;
   font-size: 18px;
   text-transform: lowercase;
   background-color: transparent;
@@ -182,7 +180,6 @@
 }
 
 .header__heading {
-  align-self: self-start;
   color: var(--accent-heading-clr);
   font-weight: 700;
   font-size: var(--accent-heading-fs-mobile);
