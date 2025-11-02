@@ -1,5 +1,5 @@
 .page {
-  margin: 0 auto;
+  margin: 0;
   padding: 10px;
   color: var(--text-clr);
   font-family: 'IBM Plex Mono', monospace;
