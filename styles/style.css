@@ -1,8 +1,8 @@
 .page {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   color: var(--text-clr);
-  font-family: 'IBM Plex Mono';
+  font-family: 'IBßM Plex Mono';
   font-size: 18px;
   background-image: var(--cover-image);
   background-repeat: no-repeat;
