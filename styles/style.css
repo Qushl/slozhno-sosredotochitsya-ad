@@ -372,11 +372,17 @@
 
 /* FOOTER */
 .footer {
+  margin: 10px;
   display: grid;
   place-items: center;
   min-height: 100vh;
 }
 
+@media (min-width: 768px) {
+  .footer {
+    margin: 20px;
+  }
+}
 .footer__text {
   color: var(--accent-heading-clr);
   font-weight: 700;
